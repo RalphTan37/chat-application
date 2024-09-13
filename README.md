@@ -1,2 +1,2 @@
-# chat-application-golang
+# Chat Application - Golang
 building a chat application w/ golang
