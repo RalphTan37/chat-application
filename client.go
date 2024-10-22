@@ -22,7 +22,7 @@ func (c *client) read() {
 	}
 }
 
-// write methodd
+// write method
 func (c *client) write() {
 	defer c.socket.Close()       // whenever write functionr returns, close the connection
 	for msg := range c.recieve { //read message from client's recieve channel
